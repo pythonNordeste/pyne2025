@@ -1,0 +1,276 @@
+
+/* 
+ *  Variables
+ */
+
+:root {
+    --color-brown-500: #6b2b2c;
+    --color-brown-400: #a44819;
+    --color-brown-300: #c67924;
+    --color-brown-200: #ce8a39;
+    --color-brown-100: #e2cba2;
+
+    --color-green-400: #588372;
+    --color-green-300: #599360;
+    --color-green-100: #d0d2c1;
+
+    --color-blue: #45657c;
+    --color-orange: #f26c37;
+}
+
+/* 
+ *  Text colors
+ */
+
+.text-brown-500 {
+    color: var(--color-brown-500) !important;
+}
+
+.text-brown-400 {
+    color: var(--color-brown-400) !important;
+}
+
+.text-brown-300 {
+    color: var(--color-brown-300) !important;
+}
+
+.text-brown-200 {
+    color: var(--color-brown-200) !important;
+}
+
+.text-brown-100 {
+    color: var(--color-brown-100) !important;
+}
+
+.text-green-400 {
+    color: var(--color-green-400) !important;
+}
+
+.text-green-300 {
+    color: var(--color-green-300) !important;
+}
+
+.text-green-100 {
+    color: var(--color-green-100) !important;
+}
+
+.text-blue {
+    color: var(--color-blue) !important;
+}
+
+.text-orange {
+    color: var(--color-orange) !important;
+}
+
+/* 
+ *  Background colors
+ */
+
+.bg-brown-500 {
+    background-color: var(--color-brown-500) !important;
+}
+
+.bg-brown-400 {
+    background-color: var(--color-brown-400) !important;
+}
+
+.bg-brown-300 {
+    background-color: var(--color-brown-300) !important;
+}
+
+.bg-brown-200 {
+    background-color: var(--color-brown-200) !important;
+}
+
+.bg-brown-100 {
+    background-color: var(--color-brown-100) !important;
+}
+
+.bg-green-400 {
+    background-color: var(--color-green-400) !important;
+}
+
+.bg-green-300 {
+    background-color: var(--color-green-300) !important;
+}
+
+.bg-green-100 {
+    background-color: var(--color-green-100) !important;
+}
+
+.bg-blue {
+    background-color: var(--color-blue) !important;
+}
+
+.bg-orange {
+    background-color: var(--color-orange) !important;
+}
+
+/* 
+ *  Fonts
+ */
+
+/* 
+ *  Avalanche
+ *  Licence at ../fonts/avalanche/license_certificate.txt
+ *  https://elements.envato.com/pt-br/avalanche-display-font-UVLVHU8
+ */
+
+@font-face {
+    font-family: 'Avalanche';
+    src: url('../fonts/avalanche/Avalanche.ttf');
+}
+
+/* 
+ *  Afacad
+ *  https://fonts.google.com/specimen/Afacad
+ */
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* 
+ *  AfacadFlux
+ *  https://fonts.google.com/specimen/Afacad+Flux
+ */
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url('../fonts/afacadflux/AfacadFlux-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* 
+ *  Applying fonts
+ */
+
+p, a, button {
+    font-family: 'Afacad', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Avalanche', sans-serif;
+}
+
+/* 
+ *  Utils
+ */
+
+.centralize-x {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centralize-y {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.centralize {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,100 @@
+
+/* 
+ *  Python Nordeste Logo
+ */
+
+.pyne-animation {
+    width: 80%;
+    max-width: 600px;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+}
+
+#logo-piaui {
+    height: 100%;
+    opacity: 0;
+    top: -20%;
+    animation: logo-piaui .5s ease-in-out .5s forwards;
+}
+
+@keyframes logo-piaui {
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+#logo-python {
+    width: 68%;
+    top: 30%;
+    left: -20%;
+    opacity: 0;
+    animation: logo-python .5s ease-in-out .5s forwards;
+}
+
+@keyframes logo-python {
+    to {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+#logo-nordeste {
+    width: 100%;
+    top: 45%;
+    opacity: 0;
+    animation: logo-nordeste .5s ease-in-out .5s forwards;
+}
+
+@keyframes logo-nordeste {
+    to {
+        opacity: 1;
+    }
+}
+
+#logo-snake {
+    width: 30%;
+    top: 26%;
+    right: -20%;
+    opacity: 0;
+    animation: logo-snake .5s ease-in-out .5s forwards;
+}
+
+@keyframes logo-snake {
+    to {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+#logo-2025 {
+    width: 20%;
+    top: 99%;
+    right: 5%;
+    opacity: 0;
+    animation: logo-2025 .5s ease-in-out .5s forwards;
+}
+
+@keyframes logo-2025 {
+    to {
+        opacity: 1;
+        top: 79%;
+    }
+}
+
+/* 
+ *  Teresina Carousel
+ */
+
+#carousel-teresina {
+    width: 100% !important;
+    height: calc(100vh - 6rem) !important;
+    box-sizing: border-box;
+}
+
+#carousel-teresina img {
+    width: 100% !important;
+    height: calc(100vh - 6rem) !important;
+    object-fit: cover;
+    object-position: center;
+}
