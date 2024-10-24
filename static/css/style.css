@@ -101,17 +101,21 @@
     }
 }
 
+.transition-all {
+    transition: all .3s ease-in-out;
+}
+
 /* 
  *  Teresina Carousel
  */
 
-#carousel-teresina {
+.carousel {
     width: 100% !important;
     height: calc(100vh - 6rem) !important;
     box-sizing: border-box;
 }
 
-#carousel-teresina img {
+.carousel img {
     width: 100% !important;
     height: calc(100vh - 6rem) !important;
     object-fit: cover;

@@ -120,12 +120,22 @@
  *  Colors animations
  */
 
-a {
+.link-dark {
     color: var(--color-brown-400) !important;
+    text-decoration: none;
 }
 
-a:hover {
+.link-dark:hover {
     color: var(--color-brown-500) !important;
+}
+
+.link-light {
+    color: var(--color-brown-100) !important;
+    text-decoration: none;
+}
+
+.link-light:hover {
+    color: var(--color-brown-300) !important;
 }
 
 /* 
@@ -269,7 +279,7 @@ a:hover {
  *  Applying fonts
  */
 
-p, a, button {
+p, a, button, strong, li, quoteblock {
     font-family: 'Afacad', sans-serif;
 }
 
@@ -297,6 +307,12 @@ h1, h2, h3, h4, h5, h6, .nav-link {
     transform: translate(-50%, -50%);
 }
 
-/* .opacity-piaui {
-    opacity: .9;
-} */
+.profile-picture {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 10px solid var(--color-brown-500);
+}
