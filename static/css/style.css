@@ -122,6 +122,15 @@
     object-position: center;
 }
 
+@media (max-width: 767.98px) {
+    .carousel {
+        height: 400px !important;
+    }
+    .carousel img {
+        height: 400px !important;
+    }
+}
+
 /* 
  *  Background
  */
