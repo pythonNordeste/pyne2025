@@ -122,6 +122,14 @@
     object-position: center;
 }
 
+#carousel-about {
+    height: calc(60vh - 6rem) !important;
+}
+
+#carousel-about img {
+    height: calc(60vh - 6rem) !important;
+}
+
 @media (max-width: 767.98px) {
     .carousel {
         height: 400px !important;
