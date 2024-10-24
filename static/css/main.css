@@ -4,18 +4,20 @@
  */
 
 :root {
-    --color-brown-500: #6b2b2c;
-    --color-brown-400: #a44819;
-    --color-brown-300: #c67924;
-    --color-brown-200: #ce8a39;
-    --color-brown-100: #e2cba2;
+    --color-brown-100-alpha: #E2CBA2EE;
+    --color-brown-100: #E2CBA2;
+    --color-brown-500: #6A2B2B;
+    --color-brown-400: #A44818;
+    --color-brown-300: #C67824;
+    --color-brown-200: #CD8A3A;
 
     --color-green-400: #588372;
-    --color-green-300: #599360;
-    --color-green-100: #d0d2c1;
+    --color-green-300: #599260;
+    --color-green-100: #D0D2C2;
+    --color-green-100-alpha: #D0D2C2EE;
 
-    --color-blue: #45657c;
-    --color-orange: #f26c37;
+    --color-blue: #46657C;
+    --color-orange: #F26D37;
 }
 
 /* 
@@ -86,6 +88,10 @@
     background-color: var(--color-brown-100) !important;
 }
 
+.bg-brown-100-alpha {
+    background-color: var(--color-brown-100-alpha) !important;
+}
+
 .bg-green-400 {
     background-color: var(--color-green-400) !important;
 }
@@ -98,12 +104,28 @@
     background-color: var(--color-green-100) !important;
 }
 
+.bg-green-100-alpha {
+    background-color: var(--color-green-100-alpha) !important;
+}
+
 .bg-blue {
     background-color: var(--color-blue) !important;
 }
 
 .bg-orange {
     background-color: var(--color-orange) !important;
+}
+
+/* 
+ *  Colors animations
+ */
+
+a {
+    color: var(--color-brown-400) !important;
+}
+
+a:hover {
+    color: var(--color-brown-500) !important;
 }
 
 /* 
@@ -251,7 +273,7 @@ p, a, button {
     font-family: 'Afacad', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .nav-link {
     font-family: 'Avalanche', sans-serif;
 }
 
@@ -274,3 +296,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* .opacity-piaui {
+    opacity: .9;
+} */

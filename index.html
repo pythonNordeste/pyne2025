@@ -12,6 +12,29 @@
 </head>
 <body>
 
+    <img src="./static/img/logo/piaui.svg" class="bg-img-piaui centralize">
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-brown-100 position-fixed w-100 z-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#teresina">Cidade</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#sponsors">Patrocínio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#footer">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <header id="header" class="d-flex flex-column flex-wrap align-content-center justify-content-center min-vh-100 p-5 bg-brown-100">
         <div class="pyne-animation position-relative">
             <img id="logo-piaui" class="position-absolute centralize-x" src="./static/img/logo/piaui.svg">
@@ -20,10 +43,15 @@
             <img id="logo-snake" class="position-absolute" src="./static/img/logo/snake.svg">
             <img id="logo-2025" class="position-absolute" src="./static/img/logo/2025.svg">
         </div>
+        <div class="text-center block mt-5">
+            <a href="#teresina">
+                <i class="bi bi-arrow-down-circle-fill btn-down"></i>
+            </a>
+        </div>
     </header>
 
-    <section id="sponsors" class="d-grid min-vh-100 p-5 bg-brown-200">
-        <div class="row">
+    <section id="teresina" class="d-grid min-vh-100 p-5 bg-green-100-alpha">
+        <div class="row block">
             <div class="col-md">
     
                 <div id="carousel-teresina" class="carousel slide h-100" data-bs-ride="carousel">
@@ -63,14 +91,19 @@
                 
             </div>
             <div class="col-md text-left d-flex flex-column justify-content-center px-md-5">
-                <h1 class="text-white mt-sm-5 mt-md-0">TERESINA - PI</h1>
-                <p class="fs-2 text-light mb-0">A encantadora capital do Piauí, é um refúgio de tranquilidade e calor humano. Banhada pelos rios Parnaíba e Poti, a cidade é conhecida como a "Mesopotâmia do Nordeste", onde natureza e urbanidade se encontram em perfeita harmonia. Suas avenidas arborizadas oferecem sombra em meio ao calor característico, convidando a um passeio sem pressa. O povo teresinense, com seu acolhimento genuíno, faz qualquer visitante se sentir em casa. Da Ponte Estaiada, com sua vista espetacular, ao verde do Parque Potycabana, Teresina é um convite ao descanso, à cultura e à beleza simples da vida.</p>
+                <h1 class="text-brown-500 mt-5 mt-md-0">TERESINA - PI</h1>
+                <p class="text-brown-300 fs-2 mb-0">A encantadora capital do Piauí, é um refúgio de tranquilidade e calor humano. Banhada pelos rios Parnaíba e Poti, a cidade é conhecida como a "Mesopotâmia do Nordeste", onde natureza e urbanidade se encontram em perfeita harmonia. Suas avenidas arborizadas oferecem sombra em meio ao calor característico, convidando a um passeio sem pressa. O povo teresinense, com seu acolhimento genuíno, faz qualquer visitante se sentir em casa. Da Ponte Estaiada, com sua vista espetacular, ao verde do Parque Potycabana, Teresina é um convite ao descanso, à cultura e à beleza simples da vida.</p>
+                <div class="text-center block mt-5">
+                    <a href="#sponsors">
+                        <i class="bi bi-arrow-down-circle-fill btn-down"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="sponsors" class="d-flex flex-wrap align-content-center justify-content-center min-vh-100 p-5 bg-brown-100">
-        <div class="text-center">
+    <section id="sponsors" class="d-flex flex-wrap align-content-center justify-content-center min-vh-100 p-5 bg-brown-100-alpha">
+        <div class="text-center block">
             <h1 class="text-brown-500 mb-5">PATROCINE O EVENTO</h1>
             <p class="fs-3 text-brown-400 mb-0">
                 Apoie a comunidade
@@ -88,7 +121,7 @@
         </div>
     </section>
 
-    <footer class="bg-brown-500 p-5 text-white text-center">
+    <footer id="footer" class="bg-brown-500 p-5 text-white text-center">
 
         <p>Este evento está sendo organizado pelo PUG-PI.</p>
         <div class="d-flex justify-content-center">

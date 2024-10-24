@@ -83,6 +83,25 @@
 }
 
 /* 
+ *  Basic animations
+ */
+
+.block {
+    opacity: 0;
+}
+
+.block.in-view {
+    opacity: 0;
+    animation: block .5s ease-in-out .5s forwards;
+}
+
+@keyframes block {
+    to {
+        opacity: 1;
+    }
+}
+
+/* 
  *  Teresina Carousel
  */
 
@@ -97,4 +116,22 @@
     height: calc(100vh - 6rem) !important;
     object-fit: cover;
     object-position: center;
+}
+
+/* 
+ *  Background
+ */
+
+.bg-img-piaui {
+    position: fixed;
+    z-index: -1;
+    width: 50vw;
+}
+
+/* 
+ *  General
+ */
+
+.btn-down {
+    font-size: 40pt;
 }
