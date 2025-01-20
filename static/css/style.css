@@ -156,3 +156,18 @@
 .btn-down {
     font-size: 40pt;
 }
+
+
+/* 
+ *  Sponsorship
+ */
+
+.sponsor-opala {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.sponsor-prata {
+    max-width: 100px;
+    max-height: 100px;
+}
