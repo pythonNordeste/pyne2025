@@ -120,6 +120,17 @@
  *  Colors animations
  */
 
+.btn-dark {
+    color: white !important;
+    background-color: var(--color-brown-400) !important;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: var(--color-brown-500) !important;
+}
+
 .link-dark {
     color: var(--color-brown-400) !important;
     text-decoration: none;
