@@ -296,6 +296,7 @@ p, a, button, strong, li, quoteblock {
 
 h1, h2, h3, h4, h5, h6, .nav-link {
     font-family: 'Avalanche', sans-serif;
+    text-transform: uppercase;
 }
 
 /* 

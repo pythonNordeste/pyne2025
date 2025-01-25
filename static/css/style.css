@@ -157,7 +157,6 @@
     font-size: 40pt;
 }
 
-
 /* 
  *  Sponsorship
  */
@@ -174,4 +173,19 @@
     height: max-content;
     max-width: 100px;
     max-height: 100px;
+}
+
+/* 
+ *  CDC iframe
+ */
+
+#cdc-form .modal-dialog {
+    width: 100%;
+    max-width: 650px !important;
+}
+
+#cdc-form iframe {
+    width: 100%;
+    height: calc(90vh - 3rem) !important;
+    overflow: hidden;
 }
