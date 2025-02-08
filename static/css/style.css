@@ -106,7 +106,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 730px) {
     #data {
         font-size: 25pt;
     }
