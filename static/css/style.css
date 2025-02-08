@@ -161,16 +161,41 @@
  *  Sponsorship
  */
 
+.sponsor-cajuina {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
 .sponsor-opala {
     width: 100%;
     max-width: 400px;
     max-height: 400px;
 }
 
+.sponsor-diamante {
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.sponsor-ouro {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .sponsor-prata {
     width: 100%;
     max-width: 100px;
     max-height: 100px;
+}
+
+.sponsor-bronze {
+    width: 100%;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 /* 
