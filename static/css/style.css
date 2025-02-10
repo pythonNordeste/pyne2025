@@ -82,6 +82,36 @@
     }
 }
 
+#data {
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 18%;
+    font-size: 10pt;
+    margin-inline: auto;
+    width: fit-content;
+    background-color: var(--color-brown-100);
+    animation: data .5s ease-in-out .5s forwards;
+}
+
+@keyframes data {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 576px) {
+    #data {
+        font-size: 18pt;
+    }
+}
+
+@media (min-width: 730px) {
+    #data {
+        font-size: 25pt;
+    }
+}
+
 /* 
  *  Basic animations
  */
