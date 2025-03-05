@@ -34,6 +34,14 @@ document.getElementById('buy-ticket-button').onmouseover = (event) => {
   event.target.src = '/static/img/tickets/activated.svg';
 }
 
+document.getElementById('buy-ticket-button').ontouchstart = (event) => {
+  event.target.src = '/static/img/tickets/activated.svg';
+}
+
 document.getElementById('buy-ticket-button').onmouseout = (event) => {
+  event.target.src = '/static/img/tickets/deactivated.svg';
+}
+
+document.getElementById('buy-ticket-button').ontouchend = (event) => {  
   event.target.src = '/static/img/tickets/deactivated.svg';
 }
