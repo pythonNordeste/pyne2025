@@ -11,7 +11,7 @@ const Observer = new IntersectionObserver((entries) => {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll('.block');
     elements.forEach(element => Observer.observe(element));
 });
@@ -27,3 +27,13 @@ addEventListener('scroll', (event) => {
     navbar.classList.remove('shadow');
   }
 });
+
+// Change tickets image on hover
+
+document.getElementById('buy-ticket-button').onmouseover = (event) => {
+  event.target.src = '/static/img/tickets/activated.svg';
+}
+
+document.getElementById('buy-ticket-button').onmouseout = (event) => {
+  event.target.src = '/static/img/tickets/deactivated.svg';
+}
