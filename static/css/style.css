@@ -160,6 +160,14 @@
     height: calc(60vh - 6rem) !important;
 }
 
+#carousel-sesc {
+    height: 600px !important;
+}
+
+#carousel-sesc img {
+    height: 600px !important;
+}
+
 @media (max-width: 767.98px) {
     .carousel {
         height: 400px !important;
