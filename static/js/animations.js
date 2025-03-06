@@ -30,18 +30,17 @@ addEventListener('scroll', (event) => {
 
 // Change tickets image on hover
 
-document.getElementById('buy-ticket-button').onmouseover = (event) => {
-  event.target.src = '/static/img/tickets/activated.svg';
-}
-
-document.getElementById('buy-ticket-button').ontouchstart = (event) => {
-  event.target.src = '/static/img/tickets/activated.svg';
-}
-
-document.getElementById('buy-ticket-button').onmouseout = (event) => {
-  event.target.src = '/static/img/tickets/deactivated.svg';
-}
-
-document.getElementById('buy-ticket-button').ontouchend = (event) => {  
-  event.target.src = '/static/img/tickets/deactivated.svg';
+for (element of document.getElementsByClassName('pyne-button')) {
+  element.onmouseover = (event) => {
+    event.target.src = event.target.src.replace('deactivated', 'activated');
+  }
+  element.ontouchstart = (event) => {
+    event.target.src = event.target.src.replace('deactivated', 'activated');
+  }
+  element.onmouseout = (event) => {
+    event.target.src = event.target.src.replace('activated', 'deactivated');
+  }
+  element.ontouchend = (event) => {
+    event.target.src = event.target.src.replace('activated', 'deactivated');
+  }
 }
