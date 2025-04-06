@@ -328,3 +328,14 @@ h1, h2, h3, h4, h5, h6, .nav-link {
     object-position: center;
     border: 10px solid var(--color-brown-500);
 }
+
+
+.circle-picture {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 10px solid var(--color-brown-500);
+}
