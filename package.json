@@ -1,0 +1,24 @@
+{
+  "name": "pyne2025",
+  "version": "1.0.0",
+  "description": "Site da Python Nordeste 2025.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pythonNordeste/pyne2025.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pythonNordeste/pyne2025/issues"
+  },
+  "homepage": "https://github.com/pythonNordeste/pyne2025#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "live-server": "^1.2.2"
+  }
+}
