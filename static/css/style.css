@@ -250,3 +250,17 @@
     height: 65vh;
     margin-top: 10px;
 }
+
+/* 
+ *  Skeaker photo
+ */
+
+.speaker-photo {
+    width: 100%;
+    max-width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid var(--color-brown-500);
+}

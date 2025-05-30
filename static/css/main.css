@@ -300,6 +300,23 @@ h1, h2, h3, h4, h5, h6, .nav-link {
 }
 
 /* 
+ *  Tables
+ */
+
+table {
+    --bs-table-bg: transparent !important;
+    background-color: transparent !important;
+}
+
+/* table tr {
+    height: 100px !important;
+} */
+
+table td, table th {
+    padding: 10px 20px 10px 20px !important;
+}
+
+/* 
  *  Utils
  */
 
