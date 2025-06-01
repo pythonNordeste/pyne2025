@@ -7,6 +7,7 @@
     --color-brown-100-alpha: #E2CBA2EE;
     --color-brown-100: #E2CBA2;
     --color-brown-500: #6A2B2B;
+    --color-brown-500-alpha: #6a2b2b44;
     --color-brown-400: #A44818;
     --color-brown-300: #C67824;
     --color-brown-200: #CD8A3A;
@@ -310,6 +311,7 @@ table {
 
 table td, table th {
     padding: 10px 20px 10px 20px !important;
+    border-color: var(--color-brown-500-alpha) !important;
 }
 
 /* 
