@@ -252,6 +252,14 @@
 }
 
 /* 
+ *  Calendar table
+ */
+
+.calendar-table {
+    min-width: 800px;
+}
+
+/* 
  *  Skeaker photo
  */
 
