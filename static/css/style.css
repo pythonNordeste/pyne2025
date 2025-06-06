@@ -259,6 +259,16 @@
     min-width: 800px;
 }
 
+.calendar-table .clickable-row{
+    transition: .1s ease-in-out;
+}
+
+.calendar-table .clickable-row:hover {
+    cursor: pointer;
+    background-color: var(--color-brown-100-alpha);
+    transition: .1s ease-in-out;
+}
+
 /* 
  *  Skeaker photo
  */

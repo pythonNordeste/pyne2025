@@ -95,6 +95,16 @@
     <section id="calendar" class="d-flex flex-wrap align-content-center justify-content-center min-vh-100 p-5 bg-green-100-alpha">
         <div class="block container mt-5">
 
+            <h1>Agenda</h1>
+            <p class="fs-5">Clique nas atividades para ver mais detalhes, como a descrição do minicurso ou palestra, além de informações adicionais sobre os ministrantes. Você também pode incluir a Python Nordeste 2025 no seu calendário e receba possíveis atualizações em primeira mão.</p>
+            <p class="fs-5"></p>
+            <a class="btn btn-dark rounded-pill px-4 py-3 mb-4" href="https://calendar.google.com/calendar/u/1?cid=Y19jNzc3NTliODVlNmIxZDUyNjNjMDkwYjdlM2M1ZDA0OWJjYmRlMzg5MTg1Nzg0OGYwMzA0ZjdjNzFiNGQwOTU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-calendar-plus-fill"></i>
+                <span class="mx-3">Adicionar na agenda</span>
+            </a>
+
+            <hr class="mb-5">
+
             <article class="w-100 mb-3">
 
                 <h5 class="text-brown-500 mb-0 ms-3">
@@ -125,24 +135,10 @@
                                 <td>-</td>
                                 <td>-</td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-02">
                                 <th>09h30</th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
-                                    <i class="bi bi-dash-lg"></i>
-                                    Descomplicando o Django REST Framework: Construindo APIs do Zero
-                                    <strong>(Parte 1)</strong>
-                                </td>
-                                <td>Lab B3-10</td>
-                                <td>
-                                    <img class="speaker-photo" src="./static/img/speakers/lais-urano.jpg" alt="Lais Urano">
-                                    <span class="mx-2">Lais Urano</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Desenvolvendo honeypots com Python
                                     <strong>(Parte 1)</strong>
@@ -153,10 +149,23 @@
                                     <span class="mx-2">Cristiano Altino</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-01">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
+                                    <i class="bi bi-dash-lg"></i>
+                                    Predição de surtos de casos de dengue utilizando IA e banco de dados
+                                </td>
+                                <td>Lab B3-10</td>
+                                <td>
+                                    <img class="speaker-photo" src="./static/img/speakers/sulamita-dantas.jpg" alt="Sulamita Dantas">
+                                    <span class="mx-2">Sulamita Dantas</span>
+                                </td>
+                            </tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-03">
+                                <th></th>
+                                <td>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Introdução às Abordagens de Aprendizado de Máquina
                                 </td>
@@ -166,10 +175,10 @@
                                     <span class="mx-2">Ariana Cursino</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-04">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Visualização de Dados em Python com Google Colab
                                 </td>
@@ -179,10 +188,10 @@
                                     <span class="mx-2">Marcos Resende</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-05">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Tornando a Qualidade parte do processo
                                 </td>
@@ -198,24 +207,10 @@
                                 <td>-</td>
                                 <td>-</td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-02">
                                 <th>14h00</th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
-                                    <i class="bi bi-dash-lg"></i>
-                                    Descomplicando o Django REST Framework: Construindo APIs do Zero
-                                    <strong>(Parte 2)</strong>
-                                </td>
-                                <td>Lab B3-10</td>
-                                <td>
-                                    <img class="speaker-photo" src="./static/img/speakers/lais-urano.jpg" alt="Lais Urano">
-                                    <span class="mx-2">Lais Urano</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Desenvolvendo honeypots com Python
                                     <strong>(Parte 2)</strong>
@@ -226,10 +221,10 @@
                                     <span class="mx-2">Cristiano Altino</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-06">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Flask: do básico até a API
                                 </td>
@@ -239,10 +234,10 @@
                                     <span class="mx-2">Alynne Ferreira</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-07">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     MinIO em Python: Transformando Dados em Soluções
                                 </td>
@@ -252,26 +247,26 @@
                                     <span class="mx-2">Bruno Cordeiro</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-08">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Blockchain para Pythonistas: Do Zero ao Smart Contract
                                 </td>
                                 <td>Lab B3-18</td>
                                 <td>
-                                    <img class="speaker-photo mb-2" src="./static/img/speakers/pedro-maria.jpeg" alt="Pedro Filipe">
-                                    <span class="mx-2">Pedro Filipe</span><br>
+                                    <img class="speaker-photo mb-2" src="./static/img/speakers/maria-rosario.png" alt="Maria do Rosário">
+                                    <span class="mx-2">Maria do Rosário</span><br>
 
-                                    <img class="speaker-photo" src="./static/img/speakers/maria-rosario.png" alt="Maria do Rosário">
-                                    <span class="mx-2">Maria do Rosário</span>
+                                    <img class="speaker-photo" src="./static/img/speakers/pedro-maria.jpeg" alt="Pedro Filipe">
+                                    <span class="mx-2">Pedro Filipe</span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="clickable-row" data-bs-toggle="modal" data-bs-target="#modal-minicurso-09">
                                 <th></th>
                                 <td>
-                                    <span class="fw-bold">Minicurso</span>
+                                    <span class="fw-bold">Tutorial</span>
                                     <i class="bi bi-dash-lg"></i>
                                     Performance e desenvolvimento de APIs
                                 </td>
@@ -609,6 +604,206 @@
 
         </div>
     </section>
+
+    <div>
+        <div class="modal fade" id="modal-minicurso-01" tabindex="-1" aria-labelledby="modal-minicurso-01-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-01-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/sulamita-dantas.jpg" alt="Sulamita Dantas">
+
+                        <h4>Sulamita Dantas</h4>
+                        <p class="fs-5">MVP Data Plataform (Microsoft Most Valuable Professional). Líder do Capítulo  Data BH. WTM Ambassador. Co -Organizadora GDG Nova Lima. Professora Pós Tech ML -FIAP. Database Engineer no Picpay. Database Administrator. Analyst Totvs. Analyst Business Intelligence. Programadora. Pós em Ciência da computação em Cybersecurity and Data Governance. Formada em Ciência da computação. Mentora em diversos projetos de TI. Palestrante e Voluntária em vários eventos de TI pelo Mundo.</p>
+                        <hr class="mb-4">
+
+                        <h4>Predição de surtos de casos de dengue utilizando IA e banco de dados</h4>
+                        <p class="fs-5">Mais informações em breve...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-02" tabindex="-1" aria-labelledby="modal-minicurso-02-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-02-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/cristiano-altino.jpg" alt="Cristiano Altino">
+
+                        <h4>Cristiano Altino</h4>
+                        <p class="fs-5">Administrador de Redes e de Sistemas desde 2009. Desenvolvedor Python desde 2014, com foco em infraestrutura voltados à Data Center. Administrador de Banco de Dados desde 2019. Possui formação em Defesa Cibernética e contribuo em projetos de TI em órgão público quanto em empresa privada focados em automação, cibersegurança e escalabilidade. Participou de projetos de migração de serviços locais (On-Premise) para nuvem pública (Cloud).</p>
+                        <hr class="mb-4">
+
+                        <h4>Desenvolvendo honeypots com Python</h4>
+                        <p class="fs-5">Neste minicurso você aprenderá a criar honeypots com Python para simular serviços vulneráveis, capturar tentativas de ataque e analisar comportamentos maliciosos em tempo real. Um minicurso prático que une desenvolvimento, monitoramento e segurança ofensiva de forma controlada e educativa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-03" tabindex="-1" aria-labelledby="modal-minicurso-03-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-03-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/ariana-cursino.jpeg" alt="Ariana Cursino">
+
+                        <h4>Ariana Cursino</h4>
+                        <p class="fs-5">Engenheira Ambiental que fez transição de carreira para a área da tecnologia aos 34 anos. Analista e Desenvolvedora de Sistemas e cursando MBA em Ciência e Análise de Dados na USO/ESALQ. Do interior de São Paulo, atualmente mora em Fortaleza. Mãe de dois adolescentes, tutora de dois cachorros e um gato e amante das plantas.</p>
+                        <hr class="mb-4">
+
+                        <h4>Introdução às Abordagens de Aprendizado de Máquina</h4>
+                        <p class="fs-5">Este tutorial tem como objetivo fornecer uma visão introdutória e prática sobre os métodos de aprendizado de máquina supervisionado e não-supervisionado. Serão abordados conceitos fundamentais, técnicas como K-Nearest Neighbors (KNN) e K-Means Clustering, além de Métodos de Correspondência Múltipla (MCA) e análise de tabelas de resíduos ajustados. O foco será na aplicação prática dessas técnicas, com exemplos reais e interpretação de resultados, além de uma discussão sobre quando e como utilizar cada abordagem, considerando suas limitações.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-04" tabindex="-1" aria-labelledby="modal-minicurso-04-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-04-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/marcos-resende.png" alt="Marcos Resende">
+
+                        <h4>Marcos Resende</h4>
+                        <p class="fs-5">Bacharel em Ciência da Computação pela UESPI, Especialista em Programação de Dispositivos Móveis pelo IFPI, Professor na SEDUC-PI e Fundador/CEO da EPI Cursos.</p>
+                        <hr class="mb-4">
+
+                        <h4>Visualização de Dados em Python com Google Colab</h4>
+                        <p class="fs-5">Este workshop oferece uma introdução prática à visualização de dados em Python utilizando a ferramenta Google Colaboratory. Durante a sessão, os participantes aprenderão conceitos fundamentais, explorarão bibliotecas populares e desenvolverão gráficos para análise de dados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-05" tabindex="-1" aria-labelledby="modal-minicurso-05-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-05-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/lia-maria.jpg" alt="Lia Mariana">
+
+                        <h4>Lia Mariana</h4>
+                        <p class="fs-5">Graduada em Engenharia de Software, Especialista em Inovação de Startup e UX, Mestranda em Gestão Pública pela UFPI e Líder Técnica da equipe de Qualidade da ETIPI.</p>
+                        <hr class="mb-4">
+
+                        <h4>Tornando a Qualidade parte do processo</h4>
+                        <p class="fs-5">Neste tutorial, você vai descobrir: Como inserir testes automatizados desde o início do desenvolvimento; Boas práticas de documentação que fortalecem a confiabilidade do projeto; Como integrar qualidade de software com metodologias ágeis; A importância do QA como agente ativo no planejamento, desenvolvimento e entrega de aplicações.</p>
+                        <p class="fs-5">Com experiência prática em projetos de governo e inovação, Lia traz uma abordagem completa para desenvolvedores, QAs e equipes que querem elevar o nível de seus processos e construir produtos mais robustos e sustentáveis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-06" tabindex="-1" aria-labelledby="modal-minicurso-06-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-06-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/alynne-ferreira.jpg" alt="Alynne Ferreira">
+
+                        <h4>Alynne Ferreira</h4>
+                        <p class="fs-5">Engenheira de computação pelo Instituto Federal do Ceará. Atua como back-end usando Flask. É coorganizadora do PyLadies Fortaleza e PUG-CE e entusiasta do ensino da programação além do óbvio.</p>
+                        <hr class="mb-4">
+
+                        <h4>Flask: do básico até a API</h4>
+                        <p class="fs-5">Este tutorial é uma introdução à programação web usando Flask. Nele vamos abordar desde conceitos básicos até o desenvolvimento de uma API. Veremos como fazer a criação de APIs RESTful, indo desde a instalação do framework até a implementação de endpoints e manipulação de dados. Todo o tutorial será prático, com exercícios incrementais que ajudarão no desafio final.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-07" tabindex="-1" aria-labelledby="modal-minicurso-07-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-07-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/bruno-cordeiro.png" alt="Bruno Cordeiro">
+
+                        <h4>Bruno Cordeiro</h4>
+                        <p class="fs-5">Estudante de Sistemas de Informação na Universidade Federal de Pernambuco, apaixonado por explorar o vasto mundo da tecnologia. Ativamente engajado em comunidades tecnológicas, busco não apenas aprender, mas também compartilhar conhecimentos e contribuir para o crescimento coletivo. Estou sempre em busca de novas perspectivas e desafios que ampliem as possibilidades do universo tecnológico.</p>
+                        <hr class="mb-4">
+
+                        <h4>MinIO em Python: Transformando Dados em Soluções</h4>
+                        <p class="fs-5">Entenda como o MinIO se destaca como uma opção poderosa em relação ao S3 da Amazon. Vamos analisar seus atributos notáveis, incluindo a vasta compatibilidade com as APIs S3, sua expansibilidade até exabytes e a priorização da segurança e performance. Vendo como grandes organizações estão adotando o MinIO para diminuir despesas e otimizar seus processos tanto na nuvem quanto localmente. Observe de que maneira os protocolos e APIs do MinIO fomentam avanços no universo do armazenamento de objetos, fazendo dele a solução perfeita para aplicações contemporâneas de aprendizado de máquina, inteligência artificial e diversas outras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-08" tabindex="-1" aria-labelledby="modal-minicurso-08-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-08-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/maria-rosario.png" alt="Maria do Rosário">
+
+                        <h4>Maria do Rosário</h4>
+                        <p class="fs-5">Graduanda em Ciência da Computação na Universidade Federal do Piauí, pesquisadora com foco em Internet da Coisas, Inteligência computacional, Segurança da Informação e Blockchain. Bolsista CNPq e pesquisadora no laboratório PAVIC. Possui experiência como palestrante e divulgadora científica na área da computação, tendo ofertado palestras e oficinas em eventos diversos nas faculdades Estácio e iCEV e em eventos de extensão na Universidade Federal do Piauí.</p>
+                        <hr class="mb-4">
+
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/pedro-maria.jpeg" alt="Pedro Filipe">
+
+                        <h4>Pedro Felipe</h4>
+                        <p class="fs-5">Estudante de Ciência da Computação na Universidade Federal do Piauí (UFPI). Apaixonado por desenvolvimento web e pesquisa acadêmica, com foco em redes LoRaWAN e Internet das Coisas (IoT). Atualmente, trabalha como desenvolvedor de software na Fábrica de Gênios, onde contribui para o desenvolvimento de APIs escaláveis utilizando FastAPI, PostgreSQL e outras tecnologias modernas. Ao longo da sua trajetória acadêmica, publicou diversos artigos científicos abordando temas como otimização de redes IoT e gerenciamento de energia em microgrids.</p>
+                        <hr class="mb-4">
+
+                        <h4>Blockchain para Pythonistas: Do Zero ao Smart Contract</h4>
+                        <p class="fs-5">Este tutorial aborda os fundamentos da blockchain para desenvolvedores Python, apresentando desde os conceitos básicos até a criação e interação com smart contracts. Serão exploradas redes populares como Bitcoin, Ethereum e Polygon, além de ferramentas como MetaMask, Alchemy e Web3.py. Os participantes aprenderão a configurar o ambiente de desenvolvimento, criar e implantar contratos inteligentes em Solidity e interagir com eles usando Python. Ao final, terão uma base sólida para iniciar projetos descentralizados na Web 3.0.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-minicurso-09" tabindex="-1" aria-labelledby="modal-minicurso-09-label" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal-minicurso-09-label">Detalhes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="profile-picture mb-3 d-block mx-auto" src="./static/img/speakers/hipolito-junior.jpg" alt="Hipolito Junior">
+
+                        <h4>Hipolito Junior</h4>
+                        <p class="fs-5">Analista e Desenvolvedor de Sistemas pelo IFPI, DevOps Engineer na ETIPI e Instrutor de Tecnologia da Informação no Senac-PI. Atua diretamente em projetos do governo, trazendo experiência prática em soluções públicas de tecnologia.</p>
+                        <hr class="mb-4">
+
+                        <h4>Performance e desenvolvimento de APIs com FastAPI</h4>
+                        <p class="fs-5">Neste tutorial, você vai entender: Como o FastAPI se destaca em performance para produção; Como é rápido sair do zero a uma API funcional; Como a velocidade de codificação pode ser um diferencial no desenvolvimento de sistemas.</p>
+                        <p class="fs-5">Hipolito trará comparações práticas com outros frameworks e mostrará como o ecossistema Python pode ser usado para construir aplicações modernas e de alta performance, especialmente em projetos governamentais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <footer id="footer" class="bg-brown-500 p-5 text-white text-center">
 
