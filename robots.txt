@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /index.html
 Allow: /cdc.html
+Allow: /calendar.html
+Allow: /tickets.html
+Allow: /social-tickets.html
 Disallow: /
